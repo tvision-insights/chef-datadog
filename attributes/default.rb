@@ -260,6 +260,7 @@ default['datadog']['dogstatsd'] = true
 default['datadog']['dogstatsd_port'] = 8125
 default['datadog']['dogstatsd_interval'] = 10 # Agent v5 only.
 default['datadog']['dogstatsd_normalize'] = 'yes' # Agent v5 only.
+default['datadog']['dogstatsd_stats_port'] = 5000
 default['datadog']['dogstatsd_target'] = 'http://localhost:17123' # Agent v5 only.
 default['datadog']['statsd_forward_host'] = nil
 default['datadog']['statsd_forward_port'] = 8125
