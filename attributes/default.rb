@@ -67,6 +67,10 @@ default['datadog']['site'] = nil
 # cmd_port: 5001
 default['datadog']['cmd_port'] = nil
 
+# The port for the go_expvar server.
+# expvar_port: 5000
+default['datadog']['expvar_port'] = nil
+
 # The port for the browser GUI to be served
 # Setting 'GUI_port: -1' turns off the GUI completely
 # Default is '5002' on Windows and macOS ; turned off on Linux
